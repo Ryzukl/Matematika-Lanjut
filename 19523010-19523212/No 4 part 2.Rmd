@@ -1,0 +1,211 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+#urutan(a,c,e,g,i,k,b,d,f,h,j,l)
+
+```{r}
+y1 <- function(x){
+  fx <- x^3
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y1),
+     type = "p",
+     xlab = "x",
+     ylab = "y1(x)")
+     
+```
+
+```{r}
+y2 <- function(x){
+  fx <- 2*x^3-x+5
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y2),
+     type = "p",
+     xlab = "x",
+     ylab = "y2(x)")
+     
+```
+
+```{r}
+y3 <- function(x){
+  fx <- -1*x^3
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+
+plot(input,
+     sapply(input, y3),
+     type = "p",
+     xlab = "x",
+     ylab = "y3(x)")
+     
+```
+
+```{r}
+y4 <- function(x){
+  fx <- x^4
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y4),
+     type = "p",
+     xlab = "x",
+     ylab = "y4(x)")
+
+```
+
+```{r}
+y5 <- function(x){
+  fx <- x^4-3*x^3+2*x^2-1
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y5),
+     type = "p",
+     xlab = "x",
+     ylab = "y5(x)")
+
+```
+
+```{r}
+y6 <- function(x){
+  fx <- -1*x^4
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y6),
+     type = "p",
+     xlab = "x",
+     ylab = "y6(x)")
+
+```
+
+```{r}
+y7 <- function(x){
+  fx <- x^3-2*x^2-3*x+4
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y7),
+     type = "p",
+     xlab = "x",
+     ylab = "y7(x)")
+
+```
+
+```{r}
+y8 <- function(x){
+  fx <- x^3-3*x^2+3*x-1
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y8),
+     type = "p",
+     xlab = "x",
+     ylab = "y8(x)")
+
+```
+
+```{r}
+y9 <- function(x){
+  fx <- -1*x^3+2*x^2+3*x-4
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y9),
+     type = "p",
+     xlab = "x",
+     ylab = "y9(x)")
+
+```
+
+```{r}
+y10 <- function(x){
+  fx <- x^4-x^3-x^2+x+1
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y10),
+     type = "p",
+     xlab = "x",
+     ylab = "y10(x)")
+
+```
+
+```{r}
+y11 <- function(x){
+  fx <- x^4-4*x^3+6*x^2-4*x
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y11),
+     type = "p",
+     xlab = "x",
+     ylab = "y11(x)")
+
+```
+
+```{r}
+y12 <- function(x){
+  fx <- -1*x^4-2*x^3+3*x
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+plot(input,
+     sapply(input, y12),
+     type = "p",
+     xlab = "x",
+     ylab = "y12(x)")
+
+```

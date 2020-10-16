@@ -1,0 +1,111 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+f1 <- function(x){
+  fx <- sin(x)
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+input <- input[-which(input==0)]
+plot(input,
+     sapply(input, f1),
+     type = "p",
+     xlab = "x",
+     ylab = "f1(x)")
+     
+     
+
+```
+
+
+```{r}
+f2 <- function(x){
+  fx <- log(x)
+  return(fx)
+}
+
+
+input <- seq(-10,10,0.1)
+
+input <- input[-which(input==0)]
+plot(input,
+     sapply(input, f2),
+     type = "p",
+     xlab = "x",
+     ylab = "f2(x)")
+     
+     
+
+```
+
+
+
+```{r}
+g1 <- function(x){
+  hasil <- sqrt(x)-2
+  return(hasil)
+}
+
+
+input <- seq(-10,10,0.1)
+
+
+plot(input,
+     sapply(input, g1),
+     type = "p",
+     xlab = "x",
+     ylab = "g1(x)")
+     
+     
+
+```
+
+
+
+```{r}
+g2 <- function(x){
+  hasil <- sqrt(x-2)
+  return(hasil)
+}
+
+
+input <- seq(-10,10,0.1)
+
+
+plot(input,
+     sapply(input, g2),
+     type = "p",
+     xlab = "x",
+     ylab = "g1(x)")
+     
+     
+
+```
+
+
+```{r}
+g3 <- function(x){
+  hasil <- sqrt(2-x)
+  return(hasil)
+}
+
+
+input <- seq(-10,10,0.1)
+
+
+plot(input,
+     sapply(input, g3),
+     type = "p",
+     xlab = "x",
+     ylab = "g3(x)")
+     
+     
+
+```

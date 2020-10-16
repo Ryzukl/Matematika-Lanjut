@@ -1,0 +1,26 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+f <- function(a,b){
+    result <- (a+b)*a*b
+    return(result)
+}
+```
+
+
+```{r}
+h <- function(m,n){
+    result <- det(m)*n-m*n
+    return(result)
+}
+```
+
+```{r}
+g <- function(x){
+    result <- (solve(x)*x)-(2*x)
+    return(result)
+}
+```
+
